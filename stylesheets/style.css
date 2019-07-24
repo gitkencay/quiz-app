@@ -1,0 +1,115 @@
+:root {
+    --arvo-font: 'Amaranth', sans-serif;
+}
+
+body{
+    background: url(../images/quiz-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container-fluid{
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.quiztitle{
+    position: inherit;
+    font-family: var(--arvo-font);
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+
+.question{
+    position: inherit;
+    width: 560px;
+    font-family: var(--arvo-font);
+    font-size: 85%;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 50px;
+    height: 53px;
+    color: whitesmoke;
+}
+
+img{
+    height: 400px;
+    margin-left: 115px
+}
+
+.nquestion{
+    font-family: var(--arvo-font);
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+}
+
+.quizwrapper{
+    height: 280px;
+    width: 650px;
+    background-color: whitesmoke;
+    margin-top: 60px;
+    border-radius: 25px;
+}
+
+.quizwrapper ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.quizwrapper option{
+    list-style: none;
+    padding: 0px;
+}
+.quizwrapper ul li{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.quizask{
+    font-family: var(--arvo-font);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.quizBox{
+    margin-top: 50px;
+    font-family: var(--arvo-font);
+    text-align: center;
+    font-size: 5rem;
+    color: red;
+}
+
+.quizwrapper ul li.correct{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+    background-color: red;
+}
+
+.quizwrapper ul li.wrong{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+#totalscore{
+    margin-top: 50px;
+    font-family: var(--arvo-font);
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    margin-left: 300px;
+}
